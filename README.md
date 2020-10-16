@@ -39,3 +39,5 @@ Docker image
 ![Screenshot Docker image](./Screenshots/Lab4_docker_logs.PNG?raw=true "Docker Image")
 
 ## Briefly summarize the differences between Docker and Virtual Machine.
+
+Virtual machines are an abstraction of physical hardware and each VM includes a copy of a complete OS. Docker containers on the other hand are an abstraction at the application layer and multiple docker containers running share the same host OS. Docker containers are ioslated from each other at the process level while virtual machines are fully isolated. This makes Docker more lightweight but at the cost of less secure isolation.
